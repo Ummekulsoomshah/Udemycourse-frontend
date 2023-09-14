@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            line-height: 1.5rem;
+        }
+
+        #header {
+            background: black;
+            font-family: Arial;
+            height: 100px;
+        }
+
+        #contentwrapper {
+            float: left;
+            /* smooth bnane k lye inner ext ko cnter wale text ko  */
+            width: 100%;
+
+        }
+
+        #contentcolumn {
+            margin: 0 230px 0 130px;
+        }
+        #leftcolumn{
+            float: left;
+            width: 230px;
+            margin-left: -100%;
+            background: skyblue;
+        }
+        #rightcolumn{
+            float: left;
+            width: 230px;
+            margin-right: -1000%;
+            background: yellow;
+        }
+        .innertext{
+            margin:20px;
+            font-family: Arial;
+            color: #5e5e5e;
+        }
+        #footer{
+            clear: left;
+            width: 100%;
+            background: black;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding: 4px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+        li{
+            float: left;
+            border-right:1px solid #bbb;
+
+        }
+        li:last-child{
+            border-right: none;
+
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+        li a:hover:not(.active){
+            background-color: #66a5a5;
+
+
+
+        }
+        .acti{
+            background-color: #66a5a5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <ul>
+                <li><a class="acti" href="#home">Home</a></li>
+                <li><a href="#news">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">Community</a></li>
+            </ul>
+        </div>
+        <div id="contentwrapper">
+            <div id="contentcolumn">
+                <div id="innertext">
+                    <b>Welcome</b> <br />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptatum sint
+                    a ex, iusto pariatur iste quas magnam reprehenderit corrupti quae, ab aliquam? Facere quae, ut sit
+                    sint velit ratione laborum reprehenderit quod architecto exercitationem totam iure quisquam quo
+                    aperiam. Aliquid ut veniam, corrupti nam ab architecto dolores harum voluptas nostrum vero quam
+                    adipisci vitae necessitatibus, eos odit debitis aperiam. Aut necessitatibus voluptatibus in,
+                    accusamus quae, itaque animi quaerat voluptas cum nihil iure explicabo soluta iusto voluptatum hic a
+                    facilis ab tempore cumque quo commodi quod! Sapiente necessitatibus quaerat, culpa incidunt non
+                    voluptates sint nostrum quas alias blanditiis sit officia et odio. Reiciendis amet nesciunt
+                    doloremque? Expedita, soluta eligendi iure eveniet vel quasi doloremque quis nostrum voluptate nemo
+                    esse. Velit expedita tempora perferendis quos sit voluptates ex tempore eum quaerat! Soluta ex saepe
+                    ut autem suscipit, corrupti iste fugit quidem repellendus quos officia et eum ea id facere nulla,
+                    consequuntur consectetur cupiditate reru
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="leftcolumn">
+            <div class="innertext">
+                <b>Left Column: <em>230px</em></b> <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit ipsam maiores unde asperiores sit ducimus dolor, ad voluptates vitae, saepe repellat. Accusamus,
+                quo laudantium, tempore aliquid repellat natus vel magni quas deleniti id autem, earum excepturi
+                doloribus beatae non sunt?
+                adipisicing elit.
+                Impedit ipsam maiores unde asperiores sit ducimus dolor, ad voluptates vitae, saepe repellat. Accusamus,
+                quo laudantium, tempore aliquid repellat natus vel magni quas deleniti id autem, earum excepturi
+                doloribus beatae non sunt?
+            </div>
+
+        </div>
+        <div id="rightcolumn">
+            <div class="innertext">
+                <b>right Column: <em>230px</em></b> <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit ipsam maiores unde asperiores sit ducimus dolor, ad voluptates vitae, saepe repellat. Accusamus,
+                quo laudantium, tempore aliquid repellat natus vel magni quas deleniti id autem, earum excepturi
+                doloribus beatae non sunt?
+                adipisicing elit.
+                Impedit ipsam maiores unde asperiores sit ducimus dolor, ad voluptates vitae, saepe repellat. Accusamus,
+                quo laudantium, tempore aliquid repellat natus vel magni quas deleniti id autem, earum excepturi
+                doloribus beatae non sunt?
+            </div>
+
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+
+</html>
